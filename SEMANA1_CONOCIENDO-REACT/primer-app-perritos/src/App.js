@@ -1,9 +1,10 @@
 import './App.css';
-import ContainerP from './Components/ContainerPerros/container'
+import ContainerPerritos from './Components/ContainerPerros/container'
 
 
 function App() {
 
+  const titulo = "Clientes caninos de Veterinaria";
   const perritos = [
     {
         Nombre: 'Firulais',
@@ -36,12 +37,10 @@ function App() {
 ]
 
   return (
-    <>
-    <h1>Clientes caninos de Veterinaria</h1>
-    <ContainerP perritos = {perritos}/>
-    </>
+    
+    <ContainerPerritos tituloPpal={titulo} perritos = {perritos}/>
+    
   );
 }
   
-
 export default App;

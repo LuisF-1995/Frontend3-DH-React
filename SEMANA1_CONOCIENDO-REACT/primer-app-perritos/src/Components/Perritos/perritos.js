@@ -7,9 +7,7 @@ const Perritos = ({Nombre, Edad,Sexo,Raza,Tamanio}) => {
         <>
             <h2>Nombre: {Nombre}</h2>
             <ul>
-                <li>
-                    Edad: {Edad}
-                </li>
+                <li>Edad: {Edad}</li>
                 <li>Sexo: {Sexo}</li>
                 <li>Raza: {Raza}</li>
                 <li>Tamaño: {Tamanio}</li>

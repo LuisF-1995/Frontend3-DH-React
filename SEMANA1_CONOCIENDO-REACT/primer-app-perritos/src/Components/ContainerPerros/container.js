@@ -2,10 +2,11 @@ import React from "react";
 import Perritos from "../Perritos/perritos";
 
 
-const ContainerP = ({perritos}) => {
+const ContainerPerritos = ({tituloPpal, perritos}) => {
 
     return(
         <div>
+        <h1>{tituloPpal}</h1>
         {
             perritos.map( (perrito) => <Perritos Nombre={perrito.Nombre} Edad={perrito.Edad} Sexo={perrito.Sexo} 
             Raza={perrito.Raza} Tamanio={perrito.Tamanio} /> )
@@ -16,4 +17,4 @@ const ContainerP = ({perritos}) => {
 }
 
 
-export default ContainerP;
+export default ContainerPerritos;
