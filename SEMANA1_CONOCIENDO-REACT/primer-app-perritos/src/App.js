@@ -14,6 +14,13 @@ function App() {
         Tamanio: 'Grande'
     },
     {
+      Nombre: 'Estrellita',
+      Edad: 7,
+      Sexo: 'Hembra',
+      Raza: 'Criollita',
+      Tamanio: 'Pequeña'
+  },
+    {
         Nombre: 'Maya',
         Edad: 13,
         Sexo: 'Hembra',
