@@ -1,6 +1,12 @@
-# Guía de consignas
+# Instrucciones para funcionamiento y troubleshooting
 
-En cada uno de los componentes está detallado su funcionamiento.
+1. Descargar el proyecto
+2. Ubicarse sobre la carpeta "entregable-frontend-3-junio22-main"
+3. ejecutar npm start desde la consola.
+
+En caso de errores:
+1. ejecutar npm install antes de npm start.
+2. verificar tener instalado node, ejecutando el comando node --version desde la consola.
 
 # Demo del proyecto
 
