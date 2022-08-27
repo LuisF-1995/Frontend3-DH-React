@@ -25,7 +25,7 @@ export default function Item( {tituloProducto, descripcion, stockIn, aumentarArt
       <h3>{tituloProducto}</h3>
       <p>{descripcion}</p>
       <h5>En stock: {stock>0 ? stock:<span>AGOTADO</span>}</h5>
-      {stock>0 ? <button onClick={btnComprar}>COMPRAR</button> : <button disabled>SIN STOCK</button>}
+      {stock>0 ? <button onClick={btnComprar} id="btn-able">COMPRAR</button> : <button disabled>SIN STOCK</button>}
     </div>
   )
 }
