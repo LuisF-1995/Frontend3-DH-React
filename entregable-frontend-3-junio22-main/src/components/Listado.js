@@ -8,14 +8,14 @@ import Item from './Item'
 // MÉTODOS: Listado no requiere de métodos.
 // PROPS: Listado recibe el método para aumentar el estado de App y se lo pasa a cada uno de sus hijos.
 
-export default function Listado(aumentarTotalComprado) {
+export default function Listado(aumentarArticulos) {
   const jsonData = require('./data.json');
 
   return (
 
     <div className='container'>
       {
-        jsonData.map( (item) => <Item key={item.id} tituloProducto={item.producto.nombre} descripcion={item.producto.descripcion} stockIn={item.stock} aumentarTotalComprado={aumentarTotalComprado}></Item> )
+        jsonData.map( (item) => <Item key={item.id} tituloProducto={item.producto.nombre} descripcion={item.producto.descripcion} stockIn={item.stock} aumentarArticulos={aumentarArticulos}></Item> )
       }
     </div>
 

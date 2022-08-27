@@ -13,7 +13,7 @@ export default function Cabecera({totalArticulos}) {
   return (
     <header>
         <h1>Carrito de compras</h1>
-        <p>Cantidad de productos {totalArticulos}</p>
+        <p>Cantidad de productos <span>{totalArticulos}</span></p>
     </header>
   )
 }

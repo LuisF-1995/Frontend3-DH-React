@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Cabecera totalArticulos={totalComprado}/>
-      <Listado aumentarTotalComprado={aumentarTotalComprado}/>
+      <Listado aumentarArticulos={aumentarTotalComprado}/>
     </div>
   );
 }
